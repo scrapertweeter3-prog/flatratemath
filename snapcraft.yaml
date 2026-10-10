@@ -1,0 +1,31 @@
+name: flatratemath
+base: core22
+version: "0.1.0"
+summary: Compare fixed-bid, hire, and flat-subscription costs on one number
+description: |
+  flatratemath converts three ways of buying software work into one scale:
+  total cost per delivered request. A fixed-bid contractor quote, a monthly
+  hire, and a flat subscription all price differently on paper; this tool
+  puts them side by side using the scope, months, and request count you
+  actually expect.
+license: MIT
+website: https://poketdev.com
+contact: scrapertweeter3+snap@gmail.com
+issues: https://github.com/scrapertweeter3-prog/flatratemath/issues
+source-code: https://github.com/scrapertweeter3-prog/flatratemath
+publisher: jamesverlander
+
+grade: stable
+confinement: strict
+
+apps:
+  flatratemath:
+    command: bin/flatratemath
+    plugs: []
+
+parts:
+  flatratemath:
+    plugin: dump
+    source: .
+    organize:
+      flatratemath.py: bin/flatratemath
