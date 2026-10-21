@@ -11,9 +11,9 @@ unlimited requests. Give the script your expected scope, months, and request
 count, and it prices every lane the same way, salary lane included, at its
 full loaded cost.
 
-I kept redrawing this exact spreadsheet for clients deciding between a
-one-time build and our unlimited development subscription, so the file
-exists now. The flat-fee side of that math lives at
+This began as a spreadsheet I kept redrawing for clients weighing a
+one-time build against a monthly hire or a flat subscription. Any
+vendor's published flat fee drops into lane three; one example is
 [Poket Dev](https://poketdev.com).
 
 ## Usage
